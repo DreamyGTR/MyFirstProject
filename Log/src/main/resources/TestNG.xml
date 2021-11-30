@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="自己的接口套件">
+    <test name="这些是测试模块">
+        <classes>
+            <class name="test.TestDemo">
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="test.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
